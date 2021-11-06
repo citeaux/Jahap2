@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import extfx.scene.control.*?>
+
+<!-- The MIT License Copyright 2014 Sebastian Russ <citeaux at https://github.com/citeaux/JAHAP>. 
+	Permission is hereby granted, free of charge, to any person obtaining a copy 
+	of this software and associated documentation files (the "Software"), to 
+	deal in the Software without restriction, including without limitation the 
+	rights to use, copy, modify, merge, publish, distribute, sublicense, and/or 
+	sell copies of the Software, and to permit persons to whom the Software is 
+	furnished to do so, subject to the following conditions: The above copyright 
+	notice and this permission notice shall be included in all copies or substantial 
+	portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY 
+	OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+	OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+	IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
+	DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
+	ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+	DEALINGS IN THE SOFTWARE. -->
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="688.0" prefWidth="967.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jahap.gui.res.ResguiController">
+	<children>
+		<BorderPane prefHeight="533.0" prefWidth="748.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<bottom>
+				<TabPane prefHeight="291.0" prefWidth="748.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER_RIGHT">
+					<tabs>
+						<Tab text="%tab.resstate">
+							<content>
+								<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+									<children>
+										<GridPane layoutX="107.0" layoutY="75.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" maxWidth="419.0" minWidth="10.0" prefWidth="196.0" />
+												<ColumnConstraints hgrow="SOMETIMES" maxWidth="405.0" minWidth="10.0" prefWidth="202.0" />
+												<ColumnConstraints hgrow="SOMETIMES" maxWidth="567.0" minWidth="10.0" prefWidth="567.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints maxHeight="58.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+												<RowConstraints maxHeight="106.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+												<RowConstraints maxHeight="123.0" minHeight="10.0" prefHeight="44.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="123.0" minHeight="10.0" prefHeight="123.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="445.0" text="%label.resstate" GridPane.rowIndex="1">
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+												</Label>
+												<ChoiceBox fx:id="resstatechoice" prefHeight="31.0" prefWidth="198.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+													<GridPane.margin>
+														<Insets />
+													</GridPane.margin>
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+													<tooltip>
+														<Tooltip fx:id="resstatetooltip" text="%tooltip.resstate" />
+													</tooltip>
+												</ChoiceBox>
+                                    <DatePicker fx:id="optionDate" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                    <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="162.0" text="%label.comment" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <TextArea fx:id="rescomment" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+											</children>
+										</GridPane>
+									</children>
+								</AnchorPane>
+							</content>
+						</Tab>
+						<Tab text="%tab.Orderer">
+							<content>
+								<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+									<children>
+										<GridPane layoutX="323.0" layoutY="31.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" maxWidth="331.0" minWidth="10.0" prefWidth="158.0" />
+												<ColumnConstraints hgrow="SOMETIMES" maxWidth="438.0" minWidth="10.0" prefWidth="242.0" />
+												<ColumnConstraints hgrow="SOMETIMES" maxWidth="348.0" minWidth="10.0" prefWidth="348.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="248.0" text="%lable.OrdererName">
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+												</Label>
+												<TextField fx:id="Orderer_Name_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" />
+												<Button fx:id="Orderer_Seach_fxbuton" mnemonicParsing="false" onAction="#Search_Orderer" prefHeight="31.0" prefWidth="90.0" text="%button.OrdererSearch" GridPane.columnIndex="2" />
+												<Button fx:id="Orderer_Details_fxbutton" mnemonicParsing="false" onAction="#Details_Orderer" prefHeight="31.0" prefWidth="90.0" text="%button.OrdererDetails" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+												<TextField fx:id="Orderer_FirstName_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="159.0" text="%lable.OrdererFirstName" GridPane.rowIndex="1">
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+												</Label>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="159.0" text="%lable.OrdererStreet" GridPane.rowIndex="2">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField fx:id="Orderer_Street_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="158.0" text="%lable.OrdererZipCode" GridPane.rowIndex="3">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField id="Orderer_Zip_fxtxtfield" fx:id="Orderer_ZipCode_fxtxtfield" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="95.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="157.0" text="%lable.OrdererCity" GridPane.rowIndex="4">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField fx:id="Orderer_City_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+												<TextField fx:id="Orderer_Country_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="159.0" text="%lable.OrdererCountry" GridPane.rowIndex="5">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+											</children>
+										</GridPane>
+									</children>
+								</AnchorPane>
+							</content>
+						</Tab>
+						<Tab text="%tab.Guest">
+							<content>
+								<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+									<children>
+										<GridPane layoutX="348.0" layoutY="26.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="249.0" text="%lable.GuestName">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField fx:id="Guest_Name_fxtxtfield" prefHeight="31.0" prefWidth="267.0" GridPane.columnIndex="1" />
+												<Button id="Orderer_Seach_fxbuton" fx:id="Guest_Search_fxbutton" mnemonicParsing="false" onAction="#Search_Guest" prefHeight="31.0" prefWidth="159.0" text="%button.GuestSearch" GridPane.columnIndex="2" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="251.0" text="%lable.GuestFirstName" GridPane.rowIndex="1">
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+												</Label>
+												<TextField id="Guest_Name_fxtxtfield" fx:id="Guest_firstName_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+												<Button id="Orderer_Details_fxbutton" fx:id="Guest_Details_fxbutton" mnemonicParsing="false" onAction="#Details_guest" prefHeight="31.0" prefWidth="162.0" text="%button.GuestDetails" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="256.0" text="%lable.GuestStreet" GridPane.rowIndex="2">
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+												</Label>
+												<TextField fx:id="Guest_Street_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="253.0" text="%lable.GuestZipCode" GridPane.rowIndex="3">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField fx:id="Guest_ZipCode_fxtxtfield" maxWidth="-Infinity" prefHeight="31.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="255.0" text="%lable.GuestCity" GridPane.rowIndex="4">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField id="Guest_Name_fxtxtfield" fx:id="Guest_City_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+												<TextField id="Guest_Name_fxtxtfield" fx:id="Guest_Country_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="253.0" text="%lable.GuestCountry" GridPane.rowIndex="5">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+											</children>
+										</GridPane>
+									</children>
+								</AnchorPane>
+							</content>
+						</Tab>
+						<Tab text="%tab.GuestRoomDate">
+							<content>
+								<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+									<children>
+										<GridPane layoutX="268.0" layoutY="101.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="253.0" text="%label.GuestRoom">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField id="Guest_Name_fxtxtfield" fx:id="Room_Code_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" />
+												<Button id="Room_Name_fxtxtfield" fx:id="Room_Search_fxbutton" mnemonicParsing="false" onAction="#Search_room" text="%button.RoomSearch" GridPane.columnIndex="2" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="254.0" text="%label.RoomArrival" GridPane.rowIndex="1">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+
+												<DatePicker id="datapickerFrom" fx:id="datapickerFrom" onAction="#Action_From_Date" prefWidth="120.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="271.0" text="%label.RoomDeparture" GridPane.rowIndex="2">
+													<padding>
+														<Insets right="10.0" />
+													</padding>
+												</Label>
+
+												<DatePicker id="datapickerTo" fx:id="datapickerTo" onAction="#Action_To_Date" prefWidth="120.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                    <ChoiceBox fx:id="paxnumber" prefHeight="31.0" prefWidth="121.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+									     <items>
+											 <FXCollections fx:factory="observableArrayList">
+												 <String fx:value="1" />
+												 <String fx:value="2" />
+												 <String fx:value="3" />
+											 </FXCollections>
+										 </items>
+									</ChoiceBox>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="271.0" text="%label.RoomPaxNumber" GridPane.rowIndex="3">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="271.0" text="%label.RoomCat" GridPane.rowIndex="4">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <TextField id="Guest_Name_fxtxtfield" fx:id="Room_Cat_Code_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                    <Button id="Room_Name_fxtxtfield" fx:id="Room_Cat_Search_fxbutton" mnemonicParsing="false" onAction="#Search_room" text="%button.CatSearch" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+											</children>
+										</GridPane>
+									</children>
+								</AnchorPane>
+							</content>
+						</Tab>
+						<Tab text="%tab.GuestAccount">
+							<content>
+								<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+									<children>
+										<GridPane layoutX="188.0" layoutY="63.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="263.0" text="%label.GuestAccountNo">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField fx:id="ACC_No_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" />
+												<Button id="ACC_No_fxtxtfield" fx:id="ACC_OpenAcc_fxbutton" mnemonicParsing="false" onAction="#Open_Account" prefWidth="123.0" text="%button.OpenGuestAccount" GridPane.columnIndex="2" />
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="288.0" text="%label.GuestAccountBalance" GridPane.rowIndex="1">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField fx:id="ACC_Balance_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+											</children>
+										</GridPane>
+									</children>
+								</AnchorPane>
+							</content>
+						</Tab>
+						<Tab text="%tab.ResPricing">
+							<content>
+								<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+									<children>
+										<GridPane layoutX="71.0" layoutY="81.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+											<columnConstraints>
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+												<ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+											</columnConstraints>
+											<rowConstraints>
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+												<RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+											</rowConstraints>
+											<children>
+												<Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="253.0" text="%label.PricingRate">
+													<GridPane.margin>
+														<Insets right="10.0" />
+													</GridPane.margin>
+												</Label>
+												<TextField id="PRICE_No_fxtxtfield" fx:id="RATE_Name_fxtxtfield" prefWidth="200.0" GridPane.columnIndex="1" />
+												<Button id="RATE_Search_fxtxtfield" fx:id="RATE_Search_fxbutton" mnemonicParsing="false" onAction="#SearchForRate" text="%button.PricingSearchForRate" GridPane.columnIndex="2" />
+												<Button id="RATE_Name_fxtxtfield" fx:id="RATE_Details_fxtxtfield" mnemonicParsing="false" onAction="#RateDetails" prefWidth="123.0" text="%button.PricingRateDetails" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+											</children>
+										</GridPane>
+									</children>
+								</AnchorPane>
+							</content>
+						</Tab>
+					</tabs>
+					<BorderPane.margin>
+						<Insets />
+					</BorderPane.margin>
+				</TabPane>
+			</bottom>
+			<center>
+				<Pane prefHeight="349.0" prefWidth="757.0">
+					<children>
+						<Label id="ResOrderer" fx:id="DASH_ResOrderer_txt" layoutX="14.0" layoutY="63.0" prefHeight="39.90234375" prefWidth="234.00009999999747" text="Orderer">
+							<font>
+								<Font size="30.0" fx:id="x1" />
+							</font>
+						</Label>
+						<Label fx:id="DASH_ResNo_fxtxt" font="$x1" layoutX="380.0" layoutY="63.0" prefHeight="39.0" prefWidth="105.00009999999747" text="Resno" />
+						<Label id="ResArrival_fxtxt" fx:id="DASH_ResArrival_fxtxt" layoutX="175.0" layoutY="18.0" prefHeight="30.0" prefWidth="141.0" text="Arrival">
+							<font>
+								<Font size="20.0" fx:id="x2" />
+							</font>
+						</Label>
+						<Label id="ResState_fxtxt" fx:id="DASH_ResState_fxtxt" layoutX="14.0" layoutY="20.0" prefHeight="21.0" prefWidth="108.0" text="ResState" />
+						<Label fx:id="DASH_ResPax_fxtxt" font="$x1" layoutX="563.0" layoutY="63.0" prefWidth="54.9998779296875" text="PAX" />
+						<Label id="ResArrival_fxtxt" fx:id="DASH_ResDeparture_fxtxt" font="$x2" layoutX="390.0" layoutY="17.0" prefHeight="30.0" prefWidth="145.0" text="Departure" />
+						<Label layoutX="356.0" layoutY="16.0" prefWidth="16.9998779296875" text="-">
+							<font>
+								<Font name="System Bold" size="20.0" />
+							</font>
+						</Label>
+						<Label id="DASH_ResNo_fxtxt" layoutX="380.0" layoutY="47.0" prefHeight="39.0" prefWidth="105.00009999999747" text="Resno">
+							<font>
+								<Font size="10.0" fx:id="x3" />
+							</font>
+						</Label>
+						<Label id="DASH_ResNo_fxtxt" font="$x3" layoutX="563.0" layoutY="47.0" prefHeight="39.0" prefWidth="63.999977929684974" text="Pax" />
+						<Label id="DASH_ResDeparture_fxtxt" fx:id="DASH_ResNewCreated_fxtxt" layoutX="563.0" layoutY="24.0" text="NEW" textFill="#ff3333" visible="false">
+							<font>
+								<Font size="16.0" />
+							</font>
+						</Label>
+					</children>
+				</Pane>
+			</center>
+			<right>
+				<VBox prefHeight="349.0" prefWidth="131.0">
+					<children>
+						<Button fx:id="Save_fxbutton" mnemonicParsing="false" onAction="#Save" prefHeight="39.0" prefWidth="151.0" text="%button.Save" VBox.vgrow="ALWAYS" />
+						<Button fx:id="Exit_fxbutton" mnemonicParsing="false" onAction="#Exit" prefHeight="39.0" prefWidth="161.0" text="%button.Cancel" />
+						<Button fx:id="Print_fxbutton" mnemonicParsing="false" onAction="#Print" prefHeight="39.0" prefWidth="156.0" text="%button.Print" />
+						<Button fx:id="Search_fxbutton" mnemonicParsing="false" onAction="#Search" prefHeight="39.0" prefWidth="179.0" text="%button.Search" />
+						<Button id="Search_fxbutton" fx:id="New_fxbutton" mnemonicParsing="false" onAction="#New" prefHeight="39.0" prefWidth="160.0" text="%button.New" />
+					</children>
+				</VBox>
+			</right>
+			<top>
+				<ToolBar prefHeight="48.0" prefWidth="748.0">
+					<items>
+						<Button fx:id="Toolbox_FirstRecord_fxButton" minWidth="29.0" mnemonicParsing="false" onAction="#Toolbox_FirstRecord" prefWidth="43.0" text="|&lt;" />
+						<Button id="Toolbox_FirstRecord_fxButton" fx:id="Toolbox_BackwardRecord_fxbutton" minWidth="29.0" mnemonicParsing="false" onAction="#Toolbox_BackwardRecord" prefWidth="43.0" text="&lt;" />
+						<ChoiceBox fx:id="Toolbox_Sorting_fxchoicebox" prefWidth="115.0">
+							<items>
+								<FXCollections fx:factory="observableArrayList">
+									<String fx:value="Item 1" />
+									<String fx:value="Item 2" />
+									<String fx:value="Item 3" />
+								</FXCollections>
+							</items>
+						</ChoiceBox>
+						<Button id="Toolbox_FirstRecord_fxButton" fx:id="Toolbox_ForewardRecord_fxbutton" minWidth="29.0" mnemonicParsing="false" onAction="#Toolbox_ForewardRecord" prefWidth="43.0" text="&gt;" />
+						<Button id="Toolbox_FirstRecord_fxButton" fx:id="Toolbox_LastRecord_fxbutton" minWidth="29.0" mnemonicParsing="false" onAction="#Toolbox_LastRecord" prefWidth="43.0" text="&gt;|" />
+						<ToggleButton mnemonicParsing="false" text="?" />
+					</items>
+				</ToolBar>
+			</top>
+		</BorderPane>
+	</children>
+</AnchorPane>

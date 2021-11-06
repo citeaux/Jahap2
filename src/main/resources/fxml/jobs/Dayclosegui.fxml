@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jahap.gui.base.DaycloseguiController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <right>
+            <Pane prefHeight="400.0" prefWidth="122.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="start" layoutY="-1.0" mnemonicParsing="false" onAction="#startDayclose" prefHeight="42.0" prefWidth="123.0" text="%button.Start" />
+                  <Button fx:id="addjob" layoutY="41.0" mnemonicParsing="false" onAction="#addjob" prefHeight="43.0" prefWidth="122.0" text="%button.AddNewJob" />
+                  <Button fx:id="removejob" layoutY="84.0" mnemonicParsing="false" onAction="#removejob" prefHeight="42.0" prefWidth="123.0" text="%button.Remove" />
+                  <Button fx:id="cancel" layoutY="126.0" mnemonicParsing="false" onAction="#cancel" prefHeight="42.0" prefWidth="123.0" text="%button.Cancel" />
+                  <Button fx:id="save" layoutY="168.0" mnemonicParsing="false" onAction="#save" prefHeight="42.0" prefWidth="123.0" text="%button.Save" />
+               </children>
+            </Pane>
+         </right>
+         <center>
+            <TableView fx:id="jobtabel" onMouseClicked="#TabelMouseclicked" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

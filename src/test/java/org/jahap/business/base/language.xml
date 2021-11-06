@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <language id="1" language_code="EN" language_name="English"/>
+    <language id="2" language_code="FR" language_name="French"/>
+    <language id="3" language_code="DE" language_name="German"/>
+</dataset>

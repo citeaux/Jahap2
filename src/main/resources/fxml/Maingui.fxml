@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<!--
+The MIT License
+
+Copyright 2014 Sebastian Russ <citeaux at https://github.com/citeaux/JAHAP>.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="765.0" prefWidth="934.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jahap.gui.MainGuiFx">
+  <children>
+    <BorderPane layoutX="-1.0" layoutY="-1.0" prefHeight="766.0" prefWidth="940.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="-5.0" AnchorPane.topAnchor="-1.0">
+      <bottom>
+        <HBox alignment="TOP_RIGHT" prefHeight="58.0" prefWidth="919.0000999999975" BorderPane.alignment="TOP_RIGHT">
+               <children>
+                  <Pane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" text="Database:" />
+                        <Label fx:id="database_name" layoutX="14.0" layoutY="29.0" prefHeight="17.0" prefWidth="166.0" text="Label" textFill="#fc0808">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children></HBox>
+      </bottom>
+      <padding>
+        <Insets />
+      </padding>
+      <top>
+        <VBox maxHeight="-Infinity" minHeight="50.0" prefHeight="88.0" prefWidth="925.0" BorderPane.alignment="TOP_RIGHT">
+          <children>
+            <MenuBar prefHeight="32.0" prefWidth="936.0" VBox.vgrow="ALWAYS">
+              <menus>
+                <Menu mnemonicParsing="false" text="%menu.basedata">
+                  <items>
+                    <MenuItem fx:id="newAddress" mnemonicParsing="false" onAction="#newAddress" text="%menuItem.NewAddress" />
+                    <MenuItem fx:id="AdressSearch" mnemonicParsing="false" onAction="#AdressSearch" text="%menuItem.SearchForAddress" />
+                    <MenuItem fx:id="Rates" mnemonicParsing="false" onAction="#OpenRatesSearch" text="%menuItem.Rates" />
+                    <MenuItem fx:id="Exit" mnemonicParsing="false" onAction="#exit" text="%menuItem.CloseProgramm" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="%menu.FrontOffice">
+                  <items>
+                    <MenuItem fx:id="checkin" mnemonicParsing="false" onAction="#DoCheckin" text="%menuItem.CheckIn" />
+                    <MenuItem fx:id="Checkcout" mnemonicParsing="false" onAction="#DoCheckout" text="%menuItem.CheckOut" />
+                              <MenuItem fx:id="arrivals" mnemonicParsing="false" onAction="#getArrivals" text="%menuItem.Arrivals" />
+                              <MenuItem fx:id="departures" mnemonicParsing="false" onAction="#getDepartures" text="%menuItem.Departures" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                    <MenuItem fx:id="searchForGuestAccount_fxmenuitem" mnemonicParsing="false" onAction="#searchForGuestAccount" text="%menuItem.GuestAccount" />
+                              <Menu mnemonicParsing="false" text="%menu.GuestAccountsReports">
+                                <items>
+                                  <MenuItem mnemonicParsing="false" text="Action 1" />
+                                </items>
+                              </Menu>
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                    <MenuItem fx:id="DayClose_fxmenuitem" mnemonicParsing="false" onAction="#DayClose" text="%menuItem.DayClose" />
+                    <MenuItem fx:id="occplan_fxmenuitem" mnemonicParsing="false" onAction="#OpenOccplan" text="%menuItem.OccupancyPlan" />
+                              <MenuItem fx:id="housestate_fxmenuitem" mnemonicParsing="false" onAction="#OpenHouseState" text="%menuItem.Housestate" />
+                  </items>
+                </Menu>
+                        <Menu mnemonicParsing="false" text="%menu.reservation">
+                          <items>
+                    <MenuItem fx:id="newReservation" mnemonicParsing="false" onAction="#createNewReservation" text="%menuItem.NewReservation" />
+                    <MenuItem fx:id="FO_SearchForReservation_fxmenuitem" mnemonicParsing="false" onAction="#FO_SearchForReservation" text="%menuItem.SearchForReservation" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="%menu.HouseManagment">
+                          <items>
+                              <MenuItem fx:id="roomCleaning" mnemonicParsing="false" onAction="#openRoomCleaning" text="%menuItem.Housekeeping" />
+                            <MenuItem fx:id="roomMaintenance" mnemonicParsing="false" onAction="#openRoomMaintenance" text="%menuItem.Maintenance" />
+                              <SeparatorMenuItem mnemonicParsing="false" />
+                              <Menu mnemonicParsing="false" text="%menu.HouskeepingReports">
+                                <items>
+                                  <MenuItem fx:id="dirtyRooms" mnemonicParsing="false" onAction="#getDirtyRoomsReport" text="%menuItem.DirtyRooms" />
+                                </items>
+                              </Menu>
+                              <Menu mnemonicParsing="false" text="%menu.MaintenanceReports">
+                                <items>
+                                  <MenuItem fx:id="maintainReport" mnemonicParsing="false" onAction="#getMaintainReport" text="%menu.RoomstoMaintain" />
+                                </items>
+                              </Menu>
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="%menu.HouseAdministration">
+                          <items>
+                    <MenuItem fx:id="Rooms" mnemonicParsing="false" onAction="#RoomsSearch" text="%menuitem.RoomsSetup" />
+                              <MenuItem fx:id="categorie" mnemonicParsing="false" onAction="#categorie" text="%menuItem.CategoriesSetup" />
+                              <MenuItem fx:id="location" mnemonicParsing="false" onAction="#location" text="%menuItem.LocationsSetup" />
+                    <MenuItem fx:id="HotelPrefMenuItem" mnemonicParsing="false" onAction="#HotelPrefMenu" text="%menuItem.HotelSetup" />
+                            <MenuItem fx:id="chefInfoReport" mnemonicParsing="false" onAction="#getChefInfoReport" text="%menuitem.ChefInfo" />
+                              <MenuItem fx:id="revAccounts" mnemonicParsing="false" onAction="#revAccounts" text="%menuitem.RevenueAccounts" />
+                              <MenuItem fx:id="Jobs" mnemonicParsing="false" onAction="#Jobs" text="%menuItem.JobsSetup" />
+                              <MenuItem fx:id="taxes" mnemonicParsing="false" onAction="#taxes" text="%menu.TaxesSetup" />
+                          </items>
+                        </Menu>
+              </menus>
+            </MenuBar>
+            <ToolBar prefHeight="56.0" prefWidth="923.0" VBox.vgrow="ALWAYS" />
+          </children>
+        </VBox>
+      </top>
+         <left>
+            <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="hotelday" contentDisplay="CENTER" layoutX="203.0" layoutY="214.0" prefHeight="141.0" prefWidth="563.0" text="Label" textAlignment="CENTER">
+                     <font>
+                        <Font size="96.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </left>
+    </BorderPane>
+  </children>
+</AnchorPane>

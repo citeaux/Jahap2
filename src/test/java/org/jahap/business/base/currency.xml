@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <currency id="1" currency_code="DOLLAR" currency_name="Dollar" currency_symbol="$"/>
+    <currency id="2" currency_code="EURO" currency_name="Euro" currency_symbol="&#8364;"/>
+    <currency id="3" currency_code="POUND" currency_name="British Pound" currency_symbol="&#163;"/>
+</dataset>

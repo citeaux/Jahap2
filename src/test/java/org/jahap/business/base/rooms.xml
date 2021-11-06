@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <rooms id="1" category="Single" code="101" name="Garden Room" cat="1" location="1" clean="true" no_maintenance="true" pax="1"/>
+    <rooms id="2" category="Double" code="102" name="Victorian Room" cat="1" location="1" clean="true" no_maintenance="false" pax="2"/>
+    <rooms id="551" code="303" name="Windsor Room" cat="3" location="2" clean="true" no_maintenance="true" pax="4"/>
+    <rooms id="601" code="401" name="Humphry" cat="4" location="401" clean="true" no_maintenance="true" pax="4"/>
+    <rooms id="2401" code="501" name="The Doric" cat="1" location="401" clean="true" no_maintenance="true" pax="4"/>
+</dataset>

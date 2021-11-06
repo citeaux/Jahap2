@@ -1,0 +1,408 @@
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 TRACE [JavaFX Application Thread] (reportsbean.java:79) - DB connected
+2021-08-22 TRACE [JavaFX Application Thread] (reportsbean.java:79) - DB connected
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (RoomGuiFx.java:110) - Function entry initialize 
+2021-08-22 DEBUG [JavaFX Application Thread] (Catbean.java:58) - Function entry countrybean
+2021-08-22 DEBUG [JavaFX Application Thread] (Catbean.java:84) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Locationbean.java:58) - Function entry countrybean
+2021-08-22 DEBUG [JavaFX Application Thread] (Locationbean.java:84) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Locationbean.java:111) - Function entry SearchForLocation
+2021-08-22 DEBUG [JavaFX Application Thread] (Locationbean.java:115) - Function exit SearchForLocation 
+2021-08-22 DEBUG [JavaFX Application Thread] (Catbean.java:94) - Function entry SearchForCat
+2021-08-22 DEBUG [JavaFX Application Thread] (Catbean.java:98) - Function exit SearchForCat 
+2021-08-22 TRACE [JavaFX Application Thread] (roomsbean.java:78) - DB connected
+2021-08-22 DEBUG [JavaFX Application Thread] (RoomGuiFx.java:124) - Function entry initialize
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (RoomGuiFx.java:165) - Function exit init  
+2021-08-22 TRACE [JavaFX Application Thread] (roomsbean.java:78) - DB connected
+2021-08-22 DEBUG [JavaFX Application Thread] (RoomGuiFx.java:178) - Function exit FillWithSelectedData
+2021-08-22 DEBUG [JavaFX Application Thread] (RoomGuiFx.java:197) - Function entry   FillWithSelectedData
+2021-08-22 DEBUG [JavaFX Application Thread] (RoomGuiFx.java:171) - Function entry init
+2021-08-22 TRACE [JavaFX Application Thread] (reportsbean.java:79) - DB connected
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (HotelSetupController.java:125) - Function entry initialize
+2021-08-22 DEBUG [JavaFX Application Thread] (addressbean.java:63) - Function entry constructor
+2021-08-22 DEBUG [JavaFX Application Thread] (addressbean.java:88) - Function exit constructor
+2021-08-22 DEBUG [JavaFX Application Thread] (addressbean.java:90) - Function Exit newrecordcreated:false
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Choicebean.java:57) - Function entry countrybean
+2021-08-22 DEBUG [JavaFX Application Thread] (Choicebean.java:84) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (countrybean.java:53) - Function entry countrybean
+2021-08-22 DEBUG [JavaFX Application Thread] (countrybean.java:79) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (languagebean.java:48) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (languagebean.java:74) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (currencybean.java:47) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (currencybean.java:73) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (countrybean.java:97) - Function entry SearchForCountryname
+2021-08-22 DEBUG [JavaFX Application Thread] (countrybean.java:112) - Function exit SearchForCountry 
+2021-08-22 DEBUG [JavaFX Application Thread] (languagebean.java:120) - Function entry SearchForCountryname
+2021-08-22 DEBUG [JavaFX Application Thread] (currencybean.java:118) - Function entry SearchForCountryname
+2021-08-22 DEBUG [JavaFX Application Thread] (Choicebean.java:99) - Function entry SearchForChoice
+2021-08-22 DEBUG [JavaFX Application Thread] (Choicebean.java:103) - Function exit SearchForChoice 
+2021-08-22 DEBUG [JavaFX Application Thread] (Choicebean.java:99) - Function entry SearchForChoice
+2021-08-22 DEBUG [JavaFX Application Thread] (Choicebean.java:103) - Function exit SearchForChoice 
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:203) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:219) - Function exit getDataRecord 0
+2021-08-22 DEBUG [JavaFX Application Thread] (HotelSetupController.java:151) - Function exit initialize 
+2021-08-22 DEBUG [JavaFX Application Thread] (HotelSetupController.java:182) - Function entry fillDialog
+2021-08-22 DEBUG [JavaFX Application Thread] (HotelSetupController.java:212) - Function exit fillDialog
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (DaycloseguiController.java:87) - Function entry initTable
+2021-08-22 DEBUG [JavaFX Application Thread] (JobJobschedulerbean.java:58) - Function entry countrybean
+2021-08-22 DEBUG [JavaFX Application Thread] (JobJobschedulerbean.java:84) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (DaycloseguiController.java:164) - Function exit initTable
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 0
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 0
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 1
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 1
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:152) - Function entry nextRecordForeward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:158) - Function exit nextRecordForeward 
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:152) - Function entry nextRecordForeward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:158) - Function exit nextRecordForeward 
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:152) - Function entry nextRecordForeward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:158) - Function exit nextRecordForeward 
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 2
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 2
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (DaycloseguiController.java:87) - Function entry initTable
+2021-08-22 DEBUG [JavaFX Application Thread] (JobJobschedulerbean.java:58) - Function entry countrybean
+2021-08-22 DEBUG [JavaFX Application Thread] (JobJobschedulerbean.java:84) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (DaycloseguiController.java:164) - Function exit initTable
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 3
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 TRACE [JavaFX Application Thread] (ServiceChargerJob.java:56) - select t from Accounts t where t.checkindate<='2015-10-16' AND t.checkoutdate>='2015-10-16' ORDER BY t.id
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 2
+2021-08-22 DEBUG [JavaFX Application Thread] (ExecuteShellCommand.java:39) - Function entry ExecuteShellCommand
+2021-08-22 TRACE [JavaFX Application Thread] (ExecuteShellCommand.java:47) - C:\Users\russ\Desktop\PostgreSQLPortable-9.3\App\PgSql\bin\pg_dumpall >C:\Users\russ\Desktop\Backup\JahapBackup.sql
+2021-08-22 TRACE [JavaFX Application Thread] (ExecuteShellCommand.java:64) - 
+2021-08-22 TRACE [JavaFX Application Thread] (ExecuteShellCommand.java:68) - Exit VAlue 1
+2021-08-22 DEBUG [JavaFX Application Thread] (ExecuteShellCommand.java:74) - Function exit ExecuteShellCommand
+2021-08-22 DEBUG [JavaFX Application Thread] (BackupJob.java:50) - Function exit BackupJob Das System kann den angegebenen Pfad nicht finden.
+
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 0
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:167) - Function entry saveRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:273) - Function entry saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:282) - Function exit saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:178) - Function exit saveRecord 
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 5
+2021-08-22 TRACE [JavaFX Application Thread] (roomsbean.java:78) - DB connected
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:546) - Function entry setCheckedinRoomsDirty
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 TRACE [JavaFX Application Thread] (roomsbean.java:562) - setCheckedinRoomsDirty Rooms Amount:2
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:205) - Function entry setRoomsinListdirty
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:368) - Function entry saveRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:384) - Function entry saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:393) - Function exit saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:379) - Function exit saveRecord 
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:368) - Function entry saveRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:384) - Function entry saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:393) - Function exit saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:379) - Function exit saveRecord 
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:217) - Function exit setRoomsinListdirty
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:98) - Function entry getFxLangString
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 2
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:252) - Function entry SearchForCountry
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:142) - Function entry nextRecordBackward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:147) - Function exit nextRecordBackward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:142) - Function entry nextRecordBackward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:147) - Function exit nextRecordBackward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:142) - Function entry nextRecordBackward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:147) - Function exit nextRecordBackward
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:60) - Function entry Jobsbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:86) - Function entry billbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 3
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 TRACE [JavaFX Application Thread] (ServiceChargerJob.java:56) - select t from Accounts t where t.checkindate<='2015-10-17' AND t.checkoutdate>='2015-10-17' ORDER BY t.id
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 2
+2021-08-22 DEBUG [JavaFX Application Thread] (ExecuteShellCommand.java:39) - Function entry ExecuteShellCommand
+2021-08-22 TRACE [JavaFX Application Thread] (ExecuteShellCommand.java:47) - C:\Users\russ\Desktop\PostgreSQLPortable-9.3\App\PgSql\bin\pg_dumpall >C:\Users\russ\Desktop\Backup\JahapBackup.sql
+2021-08-22 TRACE [JavaFX Application Thread] (ExecuteShellCommand.java:64) - 
+2021-08-22 TRACE [JavaFX Application Thread] (ExecuteShellCommand.java:68) - Exit VAlue 1
+2021-08-22 DEBUG [JavaFX Application Thread] (ExecuteShellCommand.java:74) - Function exit ExecuteShellCommand
+2021-08-22 DEBUG [JavaFX Application Thread] (BackupJob.java:50) - Function exit BackupJob Das System kann den angegebenen Pfad nicht finden.
+
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 0
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:167) - Function entry saveRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:273) - Function entry saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:282) - Function exit saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:178) - Function exit saveRecord 
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:195) - Function entry getDataRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (Jobsbean.java:211) - Function exit getDataRecord 5
+2021-08-22 TRACE [JavaFX Application Thread] (roomsbean.java:78) - DB connected
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:546) - Function entry setCheckedinRoomsDirty
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 TRACE [JavaFX Application Thread] (roomsbean.java:562) - setCheckedinRoomsDirty Rooms Amount:2
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:205) - Function entry setRoomsinListdirty
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:368) - Function entry saveRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:384) - Function entry saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:393) - Function exit saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:379) - Function exit saveRecord 
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:368) - Function entry saveRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:384) - Function entry saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:393) - Function exit saveOldRecord
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:379) - Function exit saveRecord 
+2021-08-22 DEBUG [JavaFX Application Thread] (roomsbean.java:217) - Function exit setRoomsinListdirty
+2021-08-22 DEBUG [JavaFX Application Thread] (MainApp.java:92) - Function entry start
+2021-08-22 DEBUG [JavaFX Application Thread] (MainApp.java:104) - after loader
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:84) - Function entry initialize 
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:122) - Function entry createInstance
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:165) - Function entry init
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:225) - Function entry addResourceBundle
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:228) - Function exit addResourceBundle
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:225) - Function entry addResourceBundle
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:228) - Function exit addResourceBundle
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:203) - Function exit init
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:246) - Function entry activateLocale
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:254) - Function exit activateLocale
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:128) - Function exit createInstance 
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:60) - Function entry ClientConfig
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:202) - Function entry readconfig
+2021-08-22 DEBUG [JavaFX Application Thread] (FileSystem.java:53) - Function entry FileSystem
+2021-08-22  INFO [JavaFX Application Thread] (VfsLog.java:136) - Using "C:\Users\DEMOKR~1\AppData\Local\Temp\vfs_cache" as temporary files store.
+2021-08-22 DEBUG [JavaFX Application Thread] (VfsLog.java:80) - Skipping provider "org.apache.commons.vfs2.provider.ftp.FtpFileProvider" because required class "org.apache.commons.net.ftp.FTPFile" is not available.
+2021-08-22 DEBUG [JavaFX Application Thread] (VfsLog.java:80) - Skipping provider "org.apache.commons.vfs2.provider.ftps.FtpsFileProvider" because required class "org.apache.commons.net.ftp.FTPFile" is not available.
+2021-08-22 DEBUG [JavaFX Application Thread] (VfsLog.java:80) - Skipping provider "org.apache.commons.vfs2.provider.hdfs.HdfsFileProvider" because required class "org.apache.hadoop.fs.FileSystem" is not available.
+2021-08-22 DEBUG [JavaFX Application Thread] (FileSystem.java:59) - Config URL: file:/C:/DEVELOPMENT/Jahap/config/config.xml
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: false
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Boolean' value 'false' to type 'Boolean'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Boolean
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Byte'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Byte value '0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value:  
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Character' value ' ' to type 'Character'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Character
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Double'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Double value '0.0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Float'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Float value '0.0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Integer'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Integer
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Long'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Long value '0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Short'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Short value '0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0.0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a BigDecimal
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'BigInteger' value '0' to type 'BigInteger'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a BigInteger
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: false
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Boolean' value 'false' to type 'Boolean'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Boolean
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Byte'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Byte value '0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value:  
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Character' value ' ' to type 'Character'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Character
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Double'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Double value '0.0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Float'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Float value '0.0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Integer'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Integer
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Long'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Long value '0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer' value '0' to type 'Short'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:171) -     Converted to Short value '0'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: 
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'String' value '' to type 'String'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Z@37ec2f05
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'boolean[]' value '[Z@37ec2f05' to type 'boolean[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a boolean[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [B@454ca5fa
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'byte[]' value '[B@454ca5fa' to type 'byte[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a byte[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [C@18d4d4e9
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'char[]' value '[C@18d4d4e9' to type 'char[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a char[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [D@2ad8347f
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'double[]' value '[D@2ad8347f' to type 'double[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a double[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [F@76005757
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'float[]' value '[F@76005757' to type 'float[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a float[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [I@23dd0858
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'int[]' value '[I@23dd0858' to type 'int[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a int[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [J@70a845f7
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'long[]' value '[J@70a845f7' to type 'long[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a long[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [S@21b94292
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'short[]' value '[S@21b94292' to type 'short[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a short[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.math.BigDecimal;@58586672
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@58586672' to type 'BigDecimal[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a BigDecimal[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.math.BigInteger;@73ec522
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@73ec522' to type 'BigInteger[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a BigInteger[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Boolean;@1e288566
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@1e288566' to type 'Boolean[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Boolean[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Byte;@46a0ca1e
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Byte[]' value '[Ljava.lang.Byte;@46a0ca1e' to type 'Byte[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Byte[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Character;@59a6aeff
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Character[]' value '[Ljava.lang.Character;@59a6aeff' to type 'Character[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Character[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Double;@1e27d4aa
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Double[]' value '[Ljava.lang.Double;@1e27d4aa' to type 'Double[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Double[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Float;@95cf128
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Float[]' value '[Ljava.lang.Float;@95cf128' to type 'Float[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Float[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Integer;@4f2523f4
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Integer[]' value '[Ljava.lang.Integer;@4f2523f4' to type 'Integer[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Integer[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Long;@4f40e889
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Long[]' value '[Ljava.lang.Long;@4f40e889' to type 'Long[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Long[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Short;@7f8ce5fe
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Short[]' value '[Ljava.lang.Short;@7f8ce5fe' to type 'Short[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Short[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.String;@4a0794b0
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'String[]' value '[Ljava.lang.String;@4a0794b0' to type 'String[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a String[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.lang.Class;@5131f704
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Class[]' value '[Ljava.lang.Class;@5131f704' to type 'Class[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Class[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.util.Date;@498a5bc9
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Date[]' value '[Ljava.util.Date;@498a5bc9' to type 'Date[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Date[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.util.Calendar;@64c89bff
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'Calendar[]' value '[Ljava.util.Calendar;@64c89bff' to type 'Calendar[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a Calendar[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.io.File;@21d0892c
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'java.io.File[]' value '[Ljava.io.File;@21d0892c' to type 'java.io.File[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a java.io.File[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.sql.Date;@72f0e8a5
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@72f0e8a5' to type 'java.sql.Date[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a java.sql.Date[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.sql.Time;@13dab326
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@13dab326' to type 'java.sql.Time[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a java.sql.Time[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.sql.Timestamp;@800a16f
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@800a16f' to type 'java.sql.Timestamp[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a java.sql.Timestamp[]
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:353) - Setting default value: [Ljava.net.URL;@4eca9351
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:140) - Converting 'java.net.URL[]' value '[Ljava.net.URL;@4eca9351' to type 'java.net.URL[]'
+2021-08-22 DEBUG [JavaFX Application Thread] (AbstractConverter.java:162) -     No conversion required, value is already a java.net.URL[]
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:223) - Number of tables database: 2
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:231) - Number of tables user: 2
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:72) - Function exit ClientConfig
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:147) - Function getConfigListUser
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:84) - Function getConfigList
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:152) - Function getConfigListUser
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:152) - Function getConfigListUser
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:152) - Function getConfigListUser
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:152) - Function getConfigListUser
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:112) - Function exit initialize
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:116) - Function entry init
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:120) - Function exit init
+2021-08-22 DEBUG [JavaFX Application Thread] (MainApp.java:119) - Function exit start
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:127) - Function entry loginEvent
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:134) - Function entry login
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:246) - Function entry activateLocale
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:118) - Function entry setDatabaseConfig
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:139) - Function setUsedbconfig
+2021-08-22 DEBUG [JavaFX Application Thread] (MainApp.java:58) - Function entry idinfo 
+2021-08-22 DEBUG [JavaFX Application Thread] (ResourcenManager.java:272) - Function entry getFxResourceBundle
+2021-08-22 TRACE [JavaFX Application Thread] (ResourcenManager.java:282) - Location: DE de
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:61) - Function entry hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (Hotelbean.java:87) - Function exit hotelbean
+2021-08-22 DEBUG [JavaFX Application Thread] (ClientConfig.java:89) - Function getUsedbconfig
+2021-08-22 DEBUG [JavaFX Application Thread] (MainApp.java:87) - Function exit idinfo
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:147) - Function exit login 
+2021-08-22 DEBUG [JavaFX Application Thread] (LogonGuiController.java:129) - Function exit loginEvent 

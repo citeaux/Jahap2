@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+        <?xml version="1.0"?><config>
+        <database>
+                <database_title>Main</database_title>
+                <persitence_unit>JAHAP</persitence_unit>
+                <database_url>jdbc:postgresql://localhost:5432/JAHAPs</database_url>
+                <database_type>postgres</database_type>
+                <database_path>C:\Users\russ\Desktop\PostgreSQLPortable-9.3</database_path>
+        </database>
+        <database>
+                <database_title>Test</database_title>
+                <persitence_unit>JAHAP</persitence_unit>
+                <database_url>jdbc:postgresql://localhost:5432/JAHAPtest</database_url>
+                <database_type>postgres</database_type>
+                <database_path>C:\Users\russ\Desktop\PostgreSQLPortable-9.3</database_path>
+        </database>
+
+
+</config>

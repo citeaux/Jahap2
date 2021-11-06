@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <location id="1" building="main building" floor="1st" address_id="1"/>
+    <location id="2" building="main building" floor="2nd" address_id="1"/>
+    <location id="401" building="main" floor="3rd" address_id="1"/>
+</dataset>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <choice id="1" groupid="1" groupcode="GREET" groupname="greeting" choicecode="Mr" choicetext="Mr" language="1"/>
+    <choice id="2" groupid="1" groupcode="GREET" groupname="greeting" choicecode="Mrs" choicetext="Mrs" language="1"/>
+    <choice id="3" groupid="2" groupcode="SALUT" groupname="salutation" choicecode="DMr" choicetext="Dear Mr" language="1"/>
+    <choice id="4" groupid="2" groupcode="SALUT" groupname="salutation" choicecode="DMrs" choicetext="Dear Mrs" language="1"/>
+    <choice id="5" groupid="3" groupcode="TITLE" groupname="title" choicecode="DR" choicetext="Dr." language="1"/>
+    <choice id="6" groupid="3" groupcode="TITLE" groupname="title" choicecode="DPL" choicetext="Dplm. Ing." language="1"/>
+    <choice id="7" groupid="4" groupcode="ATYPE" groupname="addresstype" choicecode="PR" choicetext="privat" language="1"/>
+    <choice id="8" groupid="4" groupcode="ATYPE" groupname="addresstype" choicecode="PR" choicetext="company" language="1"/>
+    <choice id="9" groupid="5" groupcode="REVGR" groupname="revenuegroup" choicecode="FB" choicetext="Food and Beverage" language="1"/>
+    <choice id="10" groupid="5" groupcode="REVGR" groupname="revenuegroup" choicecode="LG" choicetext="Logis" language="1"/>
+    <choice id="11" groupid="6" groupcode="DATEF" groupname="dateformat" choicecode="dmy" choicetext="dd.MM.yyyy" language="1"/>
+    <choice id="12" groupid="6" groupcode="DATEF" groupname="dateformat" choicecode="dmy1" choicetext="dd/MM/yyyy" language="1"/>
+    <choice id="13" groupid="6" groupcode="DATEF" groupname="dateformat" choicecode="mdy" choicetext="MM/dd/yyyy" language="1"/>
+    <choice id="14" groupid="6" groupcode="DATEF" groupname="dateformat" choicecode="mdy1" choicetext="MM-dd-yyyy" language="1"/>
+    <choice id="15" groupid="6" groupcode="DATEF" groupname="dateformat" choicecode="ymd" choicetext="yyyy.MM.dd" language="1"/>
+    <choice id="16" groupid="7" groupcode="NUMF" groupname="numberformat" choicecode="enf" choicetext="# ###,00" language="1"/>
+    <choice id="17" groupid="7" groupcode="NUMF" groupname="numberformat" choicecode="enf1" choicetext="#.###,00" language="1"/>
+    <choice id="18" groupid="7" groupcode="NUMF" groupname="numberformat" choicecode="enf2" choicetext="#&apos;###,00" language="1"/>
+    <choice id="19" groupid="7" groupcode="NUMF" groupname="numberformat" choicecode="unf" choicetext="#,###.00" language="1"/>
+    <choice id="20" groupid="7" groupcode="NUMF" groupname="numberformat" choicecode="unf2" choicetext="#&apos;###.00" language="1"/>
+</dataset>

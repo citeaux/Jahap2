@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <vattype id="1" name="No VAT" datevat="2013-12-15" percentage="0"/>
+    <vattype id="2" name="Full" datevat="2013-12-15" percentage="19"/>
+    <vattype id="3" name="Half" datevat="2013-12-15" percentage="7"/>
+    <vattype id="201" name="Double" datevat="2014-11-03" percentage="23"/>
+</dataset>

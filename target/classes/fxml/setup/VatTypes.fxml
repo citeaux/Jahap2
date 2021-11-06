@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<!--
+The MIT License
+
+Copyright 2014 Sebastian Russ <citeaux at https://github.com/citeaux/JAHAP>.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jahap.gui.acc.VatGuiFx">
+  <children>
+    <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+        <TabPane prefHeight="524.0" prefWidth="619.0" rotateGraphic="false" side="LEFT" tabClosingPolicy="UNAVAILABLE">
+          <tabs>
+            <Tab text="%tab.Main">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                              <TableView fx:id="vatTable" layoutX="51.0" layoutY="181.0" onMouseClicked="#TableMouseClicked" prefHeight="293.0" prefWidth="418.0" AnchorPane.leftAnchor="51.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="181.0">
+                                <columns>
+                                  
+                                </columns>
+                              </TableView>
+                              <HBox layoutX="43.0" layoutY="31.0" prefHeight="33.0" prefWidth="528.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="4.0">
+                                 <children>
+                          <Label alignment="CENTER_RIGHT" prefHeight="34.0" prefWidth="183.0" text="%lable.vatname">
+                                       <HBox.margin>
+                                          <Insets right="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                          <TextField id="name" fx:id="vatName" prefHeight="31.0" prefWidth="198.0" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="2.0" layoutY="72.0" prefHeight="34.0" prefWidth="528.0" AnchorPane.leftAnchor="2.0" AnchorPane.rightAnchor="2.0">
+                                 <children>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="180.0" text="%lable.percentage">
+                                       <HBox.margin>
+                                          <Insets right="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                    <TextField fx:id="vatPercentage" prefHeight="31.0" prefWidth="165.0" />
+                                 </children>
+                              </HBox>
+                  </children>
+                </AnchorPane>
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </center>
+      <right>
+        <VBox prefHeight="516.0" prefWidth="148.0" BorderPane.alignment="TOP_RIGHT">
+          <children>
+            <Button id="search" fx:id="printVat" mnemonicParsing="false" onAction="#printVAT" prefHeight="36.0" prefWidth="152.0" text="%button.Print" />
+                  <Button id="search" fx:id="newVat" mnemonicParsing="false" onAction="#newVAT" prefHeight="36.0" prefWidth="150.0" text="%button.New" />
+                  <Button id="search" fx:id="saveVat" mnemonicParsing="false" onAction="#saveVAT" prefHeight="36.0" prefWidth="150.0" text="%button.Save" />
+          </children>
+        </VBox>
+      </right>
+    </BorderPane>
+  </children>
+</AnchorPane>

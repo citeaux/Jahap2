@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <rates id="1" name="Logis Single Room" price="50.00" code="LSR" revaccount="1" overnight="true" vattype="2" net="false"/>
+    <rates id="2" name="Breakfast" price="12.80" code="BKF" revaccount="2" overnight="false" vattype="2" net="false"/>
+    <rates id="101" name="Deluxe 3 " price="150.00" code="DLX" revaccount="1" overnight="true" vattype="2"/>
+    <rates id="102" name="safsdf" price="300.00" code="FLX" revaccount="1" overnight="false" vattype="201"/>
+</dataset>

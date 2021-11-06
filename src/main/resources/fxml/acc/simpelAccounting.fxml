@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<!--
+The MIT License
+
+Copyright 2014 Sebastian Russ <citeaux at https://github.com/citeaux/JAHAP>.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="783.0" prefWidth="1049.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jahap.gui.acc.SimpelAccountingController">
+  <children>
+    <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <bottom>
+        <Pane prefHeight="105.0" prefWidth="723.0">
+          <children>
+            <TextField fx:id="balance_fxtextbox" layoutX="400.0" layoutY="14.0" prefWidth="200.0">
+              <tooltip>
+                <Tooltip fx:id="balance_textbox_fxtooltip" text="%tooltip.Balanceinfo" />
+              </tooltip>
+            </TextField>
+            <Label layoutX="342.0" layoutY="17.0" text="%label.Balance" />
+          </children>
+        </Pane>
+      </bottom>
+      <center>
+        <TabPane fx:id="AccountTab" prefHeight="525.0" prefWidth="814.0" rotateGraphic="false" side="BOTTOM" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="20.0" tabMinHeight="20.0">
+          <tabs>
+            <Tab fx:id="Account" text="%tab.Account">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="494.0" prefWidth="762.0">
+                  <children>
+                    <TableView fx:id="Account_tablefx" prefHeight="494.0" prefWidth="925.0" tableMenuButtonVisible="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <columns>
+                        <TableColumn fx:id="date_Account_tablefx" prefWidth="111.0" text="Date" />
+                                    <TableColumn fx:id="CreditMainColumn"  prefWidth="800.0" text="%mainColumn.CreditMainColumn">
+                                       <columns>
+                              <TableColumn fx:id="cAmount_Account_tablefxColumn" maxWidth="5000.0" minWidth="10.0" prefWidth="45.0" text="%TableColumn.camountstring" />
+                              <TableColumn fx:id="cService_Account_tablefxColumn" maxWidth="5000.0" minWidth="10.0" prefWidth="142.0" text="%TableColumn.cPosition" />
+                              <TableColumn fx:id="cPrice_Account_tablefxColumn" prefWidth="63.0" text="%TableColumn.cpricestring" />
+                              <TableColumn fx:id="cTotal_Account_tablefxColumn" maxWidth="70.0" minWidth="70.0" prefWidth="10.0" text="%TableColumn.ctotal" />
+                                       </columns>
+                                    </TableColumn>
+                                    <TableColumn fx:id="DebitMainColumn" prefWidth="800.0" text="%mainColumn.DebitMainColumn">
+                                       <columns>
+                              <TableColumn fx:id="dAmount_Account_tablefxColumn" maxWidth="5000.0" minWidth="10.0" prefWidth="52.0" text="%TableColumn.damountstring" />
+                              <TableColumn fx:id="dService_Account_tablefxColumn" maxWidth="5000.0" minWidth="10.0" prefWidth="165.0" text="%TableColumn.dpositionname" />
+                              <TableColumn fx:id="dPrice_Account_tablefxColumn" prefWidth="74.0" text="%TableColumn.dpricestring" />
+                              <TableColumn fx:id="dTotal_Account_tablefxColumn" maxWidth="70.0" prefWidth="76.0" text="%TableColumn.dtotal" />
+                                       </columns>
+                                    </TableColumn>
+                      </columns>
+                    </TableView>
+                  </children>
+                </AnchorPane>
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </center>
+      <right>
+        <VBox prefHeight="525.0" prefWidth="146.99990000000253">
+          <children>
+            <Accordion minWidth="147.0" prefHeight="437.0" prefWidth="147.0">
+              <panes>
+                <TitledPane animated="false" minWidth="162.0" prefHeight="332.0" prefWidth="205.0" text="%pane.Account" fx:id="x3">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="296.0" prefWidth="142.0">
+                      <children>
+                        <Button fx:id="addArticle" layoutX="0.0" layoutY="35.0" mnemonicParsing="false" onAction="#addArticle" prefHeight="34.0" prefWidth="142.0" text="%button.AddArticle" />
+                        <Button fx:id="cancleArticle" layoutX="0.0" layoutY="69.0" mnemonicParsing="false" onAction="#cancleArticle" prefHeight="34.0" prefWidth="142.0" text="%button.CancelArticle" />
+                        <Button fx:id="editArticle" layoutX="0.0" layoutY="103.0" mnemonicParsing="false" onAction="#editArticle" prefHeight="34.0" prefWidth="142.0" text="%button.EditArticle" />
+                        <Button fx:id="editRates" layoutX="0.0" layoutY="1.0" mnemonicParsing="false" onAction="#editRates" prefHeight="34.0" prefWidth="142.0" text="%button.EditRates">
+                          <tooltip>
+                            <Tooltip text="%tooltip.EditRatesWhichAreChargedDuringTheStay" />
+                          </tooltip>
+                        </Button>
+                        <Button fx:id="printOverview" layoutX="0.0" layoutY="169.0" mnemonicParsing="false" onAction="#printOverview" prefHeight="34.0" prefWidth="142.0" text="%button.PrintOverview" />
+                        <Button fx:id="closeAccount" layoutX="0.0" layoutY="137.0" mnemonicParsing="false" onAction="#closeAccount" prefHeight="35.0" prefWidth="142.0" text="%button.CloseAccount" />
+                        <Button id="closeAccount" fx:id="AdvancedChargeRates" layoutX="0.0" layoutY="203.0" mnemonicParsing="false" onAction="#AdvancedChargeRates" prefHeight="34.0" prefWidth="142.0" text="%button.ChargeRatesInAdvance">
+                          <tooltip>
+                            <Tooltip text="%tooltip.ChargeRateInAdvance" />
+                          </tooltip>
+                        </Button>
+                                    <Button id="closeAccount" fx:id="addPayment" layoutY="237.0" mnemonicParsing="false" onAction="#addPayment" prefHeight="34.0" prefWidth="142.0" text="%button.AddPayment">
+                                       <tooltip>
+                                          <Tooltip text="%tooltip.MarkPositionToPay" />
+                                       </tooltip>
+                                    </Button>
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </TitledPane>
+                <TitledPane animated="false" text="%pane.Invoice" fx:id="x4">
+                  <content>
+                    <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                      <children>
+                        <Button id="createInvoice" fx:id="createInvoiceButton" layoutX="0.0" layoutY="0.0" mnemonicParsing="false" onAction="#createInvoice" prefHeight="34.0" prefWidth="142.0" text="%button.CreateInvoice" />
+                        <Button id="createInvoice" layoutX="0.0" layoutY="34.0" mnemonicParsing="false" onAction="#MovePosition" prefHeight="34.0" prefWidth="142.0" text="%button.MovePositionTo" />
+                        <ChoiceBox fx:id="movePositionToBillChoiceBox" layoutX="0.0" layoutY="68.0" prefHeight="34.0" prefWidth="142.0">
+                          <tooltip>
+                            <Tooltip text="%tooltip.MoveSelectedPositionToBill" />
+                          </tooltip>
+                        </ChoiceBox>
+                        <Button id="removePosfromBill" fx:id="removePosfromBillbutton" layoutX="0.0" layoutY="102.0" mnemonicParsing="false" onAction="#removePosfromBill" prefHeight="34.0" prefWidth="142.0" text="%button.DeleteBillPosition">
+                          <font>
+                            <Font size="15.0" />
+                          </font>
+                          <tooltip>
+                            <Tooltip text="%tooltip.DeleteSelectedPositionFromBill" />
+                          </tooltip>
+                        </Button>
+                        <Button fx:id="PrintInvoice_FxButton" layoutY="290.0" mnemonicParsing="false" onAction="#PrintInvoice" prefHeight="36.0" prefWidth="142.0" text="%button.PrintInvoice" />
+                                    <Button fx:id="CloseInvoice_FxButton1" layoutY="326.0" mnemonicParsing="false" onAction="#CloseInvoice" prefHeight="36.0" prefWidth="142.0" text="%button.CloseInvoice" />
+                                    <Button id="closeAccount" fx:id="addPayment1" layoutX="1.0" layoutY="136.0" mnemonicParsing="false" onAction="#addPayment" prefHeight="34.0" prefWidth="142.0" text="%button.AddPayment">
+                                       <tooltip>
+                                          <Tooltip text="%tooltip.MarkPositionToPay" />
+                                       </tooltip>
+                                    </Button>
+                       
+                      </children>
+                    </AnchorPane>
+                  </content>
+                </TitledPane>
+              </panes>
+            </Accordion>
+            <Separator prefHeight="61.0" prefWidth="124.0" />
+            <Button id="PrintAndCloseBill_FxButton" mnemonicParsing="false" onAction="#Save" prefHeight="36.0" prefWidth="142.0" text="%button.Save" />
+          </children>
+        </VBox>
+      </right>
+      <top>
+        <Accordion prefHeight="153.0" prefWidth="953.0">
+          <panes>
+            <TitledPane animated="false" text="%pane.Account" fx:id="x1">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                              <GridPane layoutX="163.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                          <TextField prefWidth="147.0" GridPane.columnIndex="1" />
+                          <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="182.0" text="%label.room">
+                                       <GridPane.margin>
+                                          <Insets right="10.0" />
+                                       </GridPane.margin>
+                                    </Label>
+                          <TextField prefWidth="200.0" GridPane.columnIndex="4" />
+                          <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="169.0" text="%label.guest" GridPane.columnIndex="3">
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin>
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                 </children>
+                              </GridPane>
+                  </children>
+                </AnchorPane>
+              </content>
+            </TitledPane>
+            <TitledPane animated="false" text="%pane.Reservation" fx:id="x2">
+              <content>
+                <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                              <GridPane layoutX="232.0" layoutY="22.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                          <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="172.0" text="%label.from">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                          <TextField prefWidth="147.0" GridPane.columnIndex="1" />
+                          <Label alignment="CENTER_RIGHT" prefHeight="21.0" prefWidth="169.0" text="%label.to" GridPane.columnIndex="3">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                          <TextField prefWidth="147.0" GridPane.columnIndex="4" />
+                                 </children>
+                              </GridPane>
+                  </children>
+                </AnchorPane>
+              </content>
+            </TitledPane>
+          </panes>
+        </Accordion>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

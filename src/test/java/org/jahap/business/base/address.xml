@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <address id="1" christianname="Thomas" city="Middlsex" email="sadf@dfs.fr" name="Higarius" phone="05654564" street="Halows Way 4" zipcode="755412" country="4" currency="3" language="1" remarks="na" greeting="Mr" salutation="Dear Mr" title="Dr." addresstype="company"/>
+  <address id="2" christianname="Hildegard" city="Nachigental" email="sdfsd" name="Walburger" phone="054544" street="Am Kassau 33" zipcode="24445" remarks="privat" greeting="Mrs" salutation="Dear Mrs" addresstype="privat"/>
+  <address id="301" christianname="Peter" city="London" email="sdfsd" name="Hillert" phone="5464" street="Mainstreet 7" zipcode="4GHP3" currency="1" greeting="Mr" salutation="Dear Mr" title="Dr."/>
+  <address id="3351" christianname="Maris" city="safdsa" email="sdfsdfs" name="Casius" phone="05646546" street="saf" zipcode="54654" language="1" remarks="privat" greeting="Mr" salutation="Dear Mr"/>
+
+</dataset>

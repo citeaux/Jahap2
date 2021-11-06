@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <country id="1" country_code="USA" country_name="USA" language="1" currency="1"/>
+    <country id="2" country_code="UK" country_name="UK" language="1" currency="3"/>
+    <country id="3" country_code="FR" country_name="France" language="2" currency="2"/>
+    <country id="4" country_code="DE" country_name="Germany" language="3" currency="2"/>
+</dataset>

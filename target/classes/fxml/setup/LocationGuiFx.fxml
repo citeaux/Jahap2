@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<!--
+The MIT License
+
+Copyright 2014 Sebastian Russ <citeaux at https://github.com/citeaux/JAHAP>.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jahap.gui.base.locationFx">
+  <children>
+    <BorderPane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <bottom>
+        <HBox alignment="BOTTOM_LEFT" fillHeight="false" prefHeight="36.0" prefWidth="600.0">
+          <children>
+            <Button fx:id="firstRecord_fxbutton" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#goFirstRecord" prefHeight="36.0" prefWidth="37.0" text="|&lt;" textAlignment="CENTER" textOverrun="CLIP" wrapText="false" />
+            <Button id="oneRecordForward__fxbutton" fx:id="oneRecordBackward_fxbutton" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#goOneRecordBackward" prefHeight="36.0" prefWidth="37.0" text="&lt;" textAlignment="CENTER" textOverrun="CLIP" wrapText="false" />
+            <Button fx:id="oneRecordForward_fxbutton" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#goOneRecordForward" prefHeight="36.0" prefWidth="37.0" text="&gt;" textAlignment="CENTER" textOverrun="CLIP" wrapText="false" />
+            <Button fx:id="lastRecord_fxbutton" contentDisplay="CENTER" graphicTextGap="0.0" mnemonicParsing="false" onAction="#goLastRecord" prefHeight="36.0" prefWidth="40.0" text="&gt;|" textAlignment="CENTER" textOverrun="CLIP" wrapText="false" />
+          </children>
+        </HBox>
+      </bottom>
+      <center>
+        <TabPane prefHeight="200.0" prefWidth="200.0" rotateGraphic="false" side="LEFT" tabClosingPolicy="UNAVAILABLE">
+          <tabs>
+            <Tab text="Main">
+              <content>
+                <AnchorPane id="Content" fx:id="accgroup" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                  <children>
+                              <HBox layoutX="8.0" layoutY="36.0" prefHeight="36.0" prefWidth="568.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <children>
+                          <Label alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="161.0" text="%label.Address">
+                                       <HBox.margin>
+                                          <Insets right="10.0" />
+                                       </HBox.margin>
+                                    </Label>
+                          <TextField id="name" fx:id="address" prefHeight="31.0" prefWidth="198.0">
+                                       <HBox.margin>
+                                          <Insets right="10.0" />
+                                       </HBox.margin>
+                                    </TextField>
+                                    <Button fx:id="searchaddresse" mnemonicParsing="false" onAction="#searchaddress" text="%button.SearchAdress" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="-1.0" layoutY="72.0" prefHeight="35.0" prefWidth="455.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <children>
+                          <Label alignment="CENTER_RIGHT" prefHeight="31.0" prefWidth="172.0" text="%label.Building">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                          <TextField id="christianname" fx:id="building" prefHeight="31.0" prefWidth="200.0" />
+                                 </children>
+                              </HBox>
+                              <HBox layoutX="131.0" layoutY="114.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                                 <children>
+                                    <Label alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="173.0" text="%label.Floor">
+                                       <padding>
+                                          <Insets right="10.0" />
+                                       </padding>
+                                    </Label>
+                                    <TextField id="christianname" fx:id="floor" prefHeight="31.0" prefWidth="203.0" />
+                                 </children>
+                              </HBox>
+                  </children>
+                </AnchorPane>
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </center>
+      <right>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="TOP_RIGHT">
+          <children>
+            <Button id="search" fx:id="printCatdesc" mnemonicParsing="false" onAction="#printLocdesc" prefHeight="36.0" prefWidth="100.0" text="%button.Print" />
+                  <Button id="search" fx:id="newCat" mnemonicParsing="false" onAction="#newLoc" prefHeight="36.0" prefWidth="100.0" text="%button.New" />
+                  <Button id="search" fx:id="saveCat" mnemonicParsing="false" onAction="#saveLoc" prefHeight="36.0" prefWidth="100.0" text="%button.Save" />
+          </children>
+        </VBox>
+      </right>
+    </BorderPane>
+  </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <cat id="1" cat_name="sng" cat_description="single room"/>
+    <cat id="2" cat_name="dbl" cat_description="double room"/>
+    <cat id="3" cat_name="dsng" cat_description="deluxe single room"/>
+    <cat id="4" cat_name="js" cat_description="junior suite"/>
+</dataset>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="JAHAP" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>org.jahap.entities.LogAccounting</class>
+    <class>org.jahap.entities.Sequence</class>
+    <class>org.jahap.entities.SeqStore</class>
+    <class>org.jahap.entities.Reports</class>
+    <class>org.jahap.entities.base.Choice</class>
+    <class>org.jahap.entities.base.Country</class>
+    <class>org.jahap.entities.base.Address</class>
+    <class>org.jahap.entities.acc.AccountPosition</class>
+    <class>org.jahap.entities.acc.Bill</class>
+    <class>org.jahap.entities.acc.BillNo</class>
+    <class>org.jahap.entities.acc.Accounts</class>
+    <class>org.jahap.entities.base.Hotel</class>
+    <class>org.jahap.entities.base.Currency</class>
+    <class>org.jahap.entities.base.Language</class>
+    <class>org.jahap.entities.base.Rates</class>
+    <class>org.jahap.entities.res.Occ</class>
+    <class>org.jahap.entities.res.Res</class>
+    <class>org.jahap.entities.acc.Payed</class>
+    <class>org.jahap.entities.acc.Paymenttypes</class>
+    <class>org.jahap.entities.acc.Revenue</class>
+    <class>org.jahap.entities.acc.Vat</class>
+    <class>org.jahap.entities.acc.Revaccounts</class>
+    <class>org.jahap.entities.acc.Csc</class>
+    <class>org.jahap.entities.base.Vattype</class>
+    <class>org.jahap.entities.base.Cat</class>
+    <class>org.jahap.entities.base.Location</class>
+    <class>org.jahap.entities.res.Housekeepingblock</class>
+    <class>org.jahap.entities.res.Maintenanceblock</class>
+    <class>org.jahap.entities.base.Rooms</class>
+    <class>org.jahap.entities.views.Housekeeping</class>
+    <class>org.jahap.entities.views.Maintenance</class>
+    <class>org.jahap.entities.res.Res_No</class>
+    <class>org.jahap.entities.jobs.Jobscheduler</class>
+    <class>org.jahap.entities.jobs.Jobs</class>
+    <class>org.jahap.entities.jobs.JobJobscheduler</class>
+    <class>org.jahap.entities.views.Dayclose</class>
+    <class>org.jahap.entities.views.Reservation</class>
+    <class>org.jahap.entities.views.Checkin</class>
+    <class>org.jahap.entities.base.state</class>
+    <class>org.jahap.entities.base.ResState</class>
+    <class>org.jahap.entities.base.ResGroupState</class>
+    <class>org.jahap.entities.res.Occcat</class>
+    <class>org.jahap.entities.base.Preferences</class>
+  </persistence-unit>
+</persistence>
