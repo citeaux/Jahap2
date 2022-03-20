@@ -39,6 +39,9 @@ import net.sf.jasperreports.engine.query.JRJpaQueryExecuterFactory;
 import net.sf.jasperreports.swing.JRViewer;
 import net.sf.jasperreports.view.JasperViewer;
 import org.jahap.entities.base.Rates;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import javax.swing.*;
 
 
 /**
@@ -46,9 +49,11 @@ import org.jahap.entities.base.Rates;
  * @author russ
  */
 public class ratereports {
-    
+    @Autowired
+    private JFrame JV;
     public void singleRateReport(List<Rates>adlist) throws JRException{
-          ratesDataSource adSource=new ratesDataSource(adlist);
+
+        ratesDataSource adSource=new ratesDataSource(adlist);
           reportsbean rbean=new reportsbean();
         
           HashMap<String, String> parameter =
@@ -129,9 +134,14 @@ public class ratereports {
       //jhjh.getContentPane().add(viewer);
        
        System.out.println("Hallo");
-              
-                        
-               JasperViewer.viewReport(jp,false);
+
+         //JV = new JFrame("Test2");
+
+         //JRViewer Jap = new JRViewer(jp);
+             // JV.add(Jap);
+         //JV. setSize(300, 200);
+           //   JV.setVisible(true);
+             JasperViewer.viewReport(jp,false);
         
         
     } 

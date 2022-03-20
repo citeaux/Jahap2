@@ -10,7 +10,7 @@ import org.jahap.entities.acc.Csc;
 import org.jahap.entities.base.Address;
 import org.jahap.entities.res.Res;
 
-@Generated(value="EclipseLink-3.0.2.v20210716-re8d4b571c9", date="2021-10-23T10:51:59")
+@Generated(value="EclipseLink-3.0.2.v20210716-re8d4b571c9", date="2021-12-05T10:32:46")
 @StaticMetamodel(Accounts.class)
 public class Accounts_ { 
 

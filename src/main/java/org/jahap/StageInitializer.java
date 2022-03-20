@@ -33,7 +33,7 @@ public class StageInitializer implements ApplicationListener<JahapApplication.St
         stage.setScene(new Scene(fxWeaver.loadView(LogonGuiController.class)));
         stage.setTitle(applicationTitle);
 
-        fxWeaver.loadController(LogonGuiController.class).init(event.getmEv());
+        //fxWeaver.loadController(LogonGuiController.class).init();
         stage.show();
     }
 }

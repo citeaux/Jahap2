@@ -45,5 +45,9 @@
     <class>org.jahap.entities.base.ResGroupState</class>
     <class>org.jahap.entities.res.Occcat</class>
     <class>org.jahap.entities.base.Preferences</class>
+      <class>org.jahap.entities.users.Role</class>
+    <class>org.jahap.entities.users.UserRole</class>
+    <class>org.jahap.entities.users.User</class>
+    <class>org.jahap.entities.users.UserRole</class>
   </persistence-unit>
 </persistence>

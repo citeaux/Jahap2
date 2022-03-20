@@ -11,7 +11,7 @@ import org.jahap.entities.acc.Revenue;
 import org.jahap.entities.acc.Vat;
 import org.jahap.entities.base.Rates;
 
-@Generated(value="EclipseLink-3.0.2.v20210716-re8d4b571c9", date="2021-10-23T10:51:59")
+@Generated(value="EclipseLink-3.0.2.v20210716-re8d4b571c9", date="2021-12-05T10:32:46")
 @StaticMetamodel(AccountPosition.class)
 public class AccountPosition_ { 
 

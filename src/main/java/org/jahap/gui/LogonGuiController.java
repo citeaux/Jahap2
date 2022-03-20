@@ -35,6 +35,8 @@ import javafx.stage.Stage;
 import net.rgielen.fxweaver.core.FxmlView;
 
 import org.jahap.CurrentUser;
+import org.jahap.LoginEvent;
+import org.jahap.MainApp;
 import org.jahap.MainEventResult;
 
 import org.jahap.entities.JahapDatabaseConnector;
@@ -51,6 +53,11 @@ import javafx.scene.input.KeyEvent;
 import org.jahap.config.ClientConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationEvent;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.stereotype.Component;
 
 /**
@@ -61,9 +68,11 @@ import org.springframework.stereotype.Component;
 @Component
 @FxmlView("../../../fxml/LogonGui.fxml")
 public class LogonGuiController implements i18n {
+    private ConfigurableApplicationContext applicationContext;
     Logger log = LoggerFactory.getLogger(LogonGuiController.class);
 
-
+    @Autowired
+    private ApplicationContext context;
 
     @FXML
     private Button LoginButton;
@@ -76,8 +85,6 @@ public class LogonGuiController implements i18n {
     @FXML
     private ChoiceBox<String> database_title;
 
-    @FXML
-    private TextField testtext;
 
 
     private ClientConfig configlogin;
@@ -92,6 +99,8 @@ public class LogonGuiController implements i18n {
     @FXML
     public void initialize() {
 	    log.debug("Function entry initialize ");
+
+
 	  Resourcen kl=new Resourcen();
 	  jk=kl.getResourcenManager();
       configlogin=ClientConfig.getInstance();
@@ -124,10 +133,10 @@ public class LogonGuiController implements i18n {
 	    log.debug("Function exit initialize");
     }    
 
-    public void init(MainEventResult mEv){
+    public void init(){
 	    log.debug("Function entry init");
 
-       this.mEv=mEv;
+
 
 	    log.debug("Function exit init");
 
@@ -149,17 +158,21 @@ public class LogonGuiController implements i18n {
 
         jk.activateLocale(language.getValue());
         log.debug("Get PasswordText" + passwordfield.getText());
-        passwordfield.setText("TEST");
-        log.debug("Get PasswordText" + testtext.getText());
-        cancelButton.setText(passwordfield.getText());
+
+
+
         JahapDatabaseConnector hhh=JahapDatabaseConnector.getConnector(loginName.getValue(), passwordfield.getText(),configlogin.getConfigitemAndSet(database_title.getValue()));
            
          Stage jimbo= (Stage) LoginButton.getScene().getWindow();
          boolean admin=false;
          if(loginName.getValue().equals("root")) admin=true;
          CurrentUser hh = CurrentUser.getCurrentUser(loginName.getValue(), admin);
-         
-         this.mEv.setDbRecordId(true, "WW");
+         LoginEvent mk= new LoginEvent();
+         mk.setSuccessFull(true);
+
+        context.publishEvent(new LoginFinishedEvent(mk));
+
+
         jimbo.close();
     
         log.debug("Function exit login ");
@@ -192,5 +205,16 @@ public class LogonGuiController implements i18n {
        // passwordfield.getProperties(currentValue)
        //if (event.getCode().equals(KeyCode.ENTER)){this.login();}
         
+    }
+
+    static public class LoginFinishedEvent extends ApplicationEvent {
+
+        public LoginFinishedEvent(LoginEvent loginevent){
+            super(loginevent);
+        }
+
+        public LoginEvent getLoginEvent() {
+            return ((LoginEvent) getSource());
+        }
     }
 }

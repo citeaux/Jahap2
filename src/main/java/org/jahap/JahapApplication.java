@@ -7,32 +7,40 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import org.jahap.gui.LogonGuiController;
 import org.jahap.i18n.Resourcen;
 import org.jahap.i18n.ResourcenManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ApplicationEvent;
+import org.springframework.context.ApplicationListener;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.logging.Level;
 
-public class JahapApplication extends Application implements MainEventListener{
+@Component
+public class JahapApplication extends Application implements  ApplicationListener<LogonGuiController.LoginFinishedEvent> {
     Logger log = LoggerFactory.getLogger(MainApp.class);
     private ConfigurableApplicationContext applicationContext;
     private MainEventResult mEv;
     ResourcenManager jk;
     @Override
     public void init() {
-        applicationContext = new SpringApplicationBuilder(MainApp.class).run();
+
+        SpringApplicationBuilder builder = new SpringApplicationBuilder(MainApp.class);
+        builder.headless(false);
+
+       applicationContext = builder.run();
+        //applicationContext = new SpringApplicationBuilder(MainApp.class).run();
 
 
 
         log.debug("Function entry start");
-       mEv = new MainEventResult();
-        mEv.addIDListener(this);
+
 
 
 
@@ -63,44 +71,16 @@ public class JahapApplication extends Application implements MainEventListener{
 
     }
 
-    @Override
-    public void start(Stage stage) {
-        log.debug("Start");
-        applicationContext.publishEvent(new StageReadyEvent(stage, mEv));
-    }
+
 
     @Override
-    public void stop() {
-        applicationContext.close();
-        Platform.exit();
-    }
-
-    static class StageReadyEvent extends ApplicationEvent {
-        private MainEventResult mEv;
-
-        public StageReadyEvent(Stage stage, MainEventResult mEv) {
-            super(stage);
-            this.mEv=mEv;
-        }
-
-        public Stage getStage() {
-            return ((Stage) getSource());
-        }
-        public MainEventResult getmEv() {
-            return mEv;
-        }
-    }
-
-
-
-    public void idinfo(MainEvent e) {
-
-        log.debug("Function entry idinfo ");
+    public void onApplicationEvent(LogonGuiController.LoginFinishedEvent loginFinishedEvent) {
+        log.debug("Login finished ");
         // ResourcenManager
         Resourcen kk= new Resourcen();
         jk=kk.getResourcenManager();
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
-        if(e.isIsSuccessFull()==true){
+        if(loginFinishedEvent.getLoginEvent().isSuccessFull()==true){
 
 
             Stage stage = new Stage();
@@ -129,4 +109,34 @@ public class JahapApplication extends Application implements MainEventListener{
             log.debug("Function exit idinfo");
         }
     }
+
+    @Override
+    public void start(Stage stage) {
+        log.debug("Start");
+        applicationContext.publishEvent(new StageReadyEvent(stage));
+    }
+
+    @Override
+    public void stop() {
+        applicationContext.close();
+        Platform.exit();
+    }
+
+    static class StageReadyEvent extends ApplicationEvent {
+
+
+        public StageReadyEvent(Stage stage) {
+            super(stage);
+
+        }
+
+        public Stage getStage() {
+            return ((Stage) getSource());
+        }
+
+    }
+
+
+
+
 }

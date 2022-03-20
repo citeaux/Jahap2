@@ -71,7 +71,7 @@ public class addressDataSource implements JRDataSource{
         else if(jrf.getName().equals("address_zipcode"))return addressSource.get(counter).getZipcode();
         else if(jrf.getName().equals("address_email"))return addressSource.get(counter).getEmail();
         else if(jrf.getName().equals("address_phone"))return addressSource.get(counter).getPhone();
-        else if(jrf.getName().equals("address_country"))return addressSource.get(counter).getCountry().getCountryName();
+        //else if(jrf.getName().equals("address_country"))return addressSource.get(counter).getCountry().getCountryName();
         else if(jrf.getName().equals("address_currency"))return addressSource.get(counter).getCurrency().getCurrencyName();
         else if(jrf.getName().equals("address_language"))return addressSource.get(counter).getLanguage().getLanguageName();
         else if(jrf.getName().equals("address_homepage"))return addressSource.get(counter).getHomepage();

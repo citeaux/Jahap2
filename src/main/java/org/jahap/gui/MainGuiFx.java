@@ -62,14 +62,14 @@ import org.jahap.i18n.ResourcenManager;
 import org.joda.time.LocalDate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
 @Component
 @FxmlView("../../../Maingui.fxml")
 public class MainGuiFx implements i18n, Initializable {
 
-       ResourcenManager jk; 
-    @FXML
+    ResourcenManager jk;
     private MenuItem newAddress;
 
 
